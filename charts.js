@@ -136,7 +136,7 @@ function buildCharts(sample) {
       value: wfreq,
       type: "indicator",
       mode: "gauge+number",
-      title: { text: "Belly Button Washing Frequency<br>Scrubs per Week" },
+      title: { text: "Belly Button Washing Frequency:<br>Scrubs per Week" },
       delta: { reference: 2 },
       gauge: {
         axis: { range: [null, 10], tickwidth: 1, tickcolor: "darkblue" },

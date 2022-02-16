@@ -139,11 +139,11 @@ function buildCharts(sample) {
       title: { text: "Belly Button Washing Frequency:<br>Scrubs per Week" },
       delta: { reference: 2 },
       gauge: {
-        axis: { range: [null, 10], tickwidth: 1, tickcolor: "darkblue" },
+        axis: { range: [null, 10]},
         bar: { color: "black" },
         bgcolor: "white",
-        borderwidth: 2,
-        bordercolor: "gray",
+        borderwidth: 1,
+        bordercolor: "black",
         steps: [
           { range: [0, 2], color: "red" },
           { range: [2, 4], color: "orange" },
